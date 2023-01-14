@@ -175,6 +175,12 @@ hr{
     size: 16px;
 }
 
+/* Footer secton */
+footer p{
+    text-align: center;
+    margin-top: 20px;
+}
+
 /* Responsive Design (Mobile/Small devices) */
 @media screen and (max-width: 688px) {
     .nav-bar{
