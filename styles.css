@@ -70,6 +70,7 @@ hr{
     padding: 33px 30px 42px;
     background-color: #FFFFFF;
     border-radius: 5px;
+    margin-bottom: 22px;
 }
 .player-container{
     display: grid;
@@ -120,6 +121,60 @@ hr{
     color:#562EFF;
 }
 
+
+/* Lates Course Section */
+.course-section{
+    padding: 33px 30px 42px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 22px;
+}
+.course-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+.course{
+    Width: 275px;
+    Height: 285px;
+    padding: 12px;
+    box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+}
+.course img{
+    width: 224px;
+    height: 104px;
+}
+.author{
+    font-size: 14;
+    color: #ED6B4F;
+    margin-bottom: 20px;
+}
+.course-footer{
+    display: flex;
+    gap: 26px;
+}
+.ratings i{
+    color: #FFC014;
+    height: 12px;
+    width: 12px;
+    margin-right: 3px;
+    word-spacing: .5;
+}
+.ratings span{
+    color: #A2A2A2;
+    margin-left: 10px;
+}
+.time{
+    background: #FFE4E8;
+    border-radius: 16px;
+    padding: 5px;
+    color: #FF4A60;
+    size: 16px;
+}
+.time i{
+    size: 16px;
+}
+
 /* Responsive Design (Mobile/Small devices) */
 @media screen and (max-width: 688px) {
     .nav-bar{
@@ -155,5 +210,13 @@ hr{
 @media screen and (min-width: 687px) and (max-width: 992px) {
     .nav-bar{
         padding: 20px 50px;
+    }
+
+    main{
+        padding: 0;
+    }
+
+    .blog img, .blog-details{
+        width: 100%;
     }
 }
