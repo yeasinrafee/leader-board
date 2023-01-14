@@ -204,6 +204,15 @@ hr{
     .blog img, .blog-details{
         width: 100%;
     }
+
+
+    .course-section{
+        padding: 10px 20px;
+    }
+    .course-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
 }
 
 /* Responsive Design (Tablet/Medium devices) */
@@ -218,5 +227,12 @@ hr{
 
     .blog img, .blog-details{
         width: 100%;
+    }
+
+
+    .course-container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        justify-items: center;
     }
 }
