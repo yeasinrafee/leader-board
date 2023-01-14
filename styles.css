@@ -49,3 +49,20 @@ body{
     font-size: 16px;
     color: #FFFFFF;
 }
+
+
+/* Responsive Design (Mobile/Small devices) */
+@media screen and (max-width: 688px) {
+    .nav-bar{
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px 20px;
+    }
+}
+
+/* Responsive Design (Tablet/Medium devices) */
+@media screen and (min-width: 687px) and (max-width: 992px) {
+    .nav-bar{
+        padding: 20px 50px;
+    }
+}
