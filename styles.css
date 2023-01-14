@@ -89,9 +89,6 @@ hr{
 }
 
 /* Blog Section Stylesheet */
-.blog-container{
-
-}
 .blogs{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -129,6 +126,28 @@ hr{
         flex-direction: column;
         gap: 20px;
         padding: 10px 20px;
+    }
+
+
+    main{
+        padding: 0;
+    }
+
+
+    .player{
+        flex-direction: column;
+    }
+
+    .player-container, .blogs{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 10px 20px;
+    }
+    .blog{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .blog img, .blog-details{
+        width: 100%;
     }
 }
 
